@@ -24,10 +24,10 @@ public final class DibujoView extends JFrame {
 	
 	private Container c = getContentPane();
 	private JPanel panel = new JPanel();
-	private JRadioButton optionAButton = new JRadioButton("Opción A");
-	private JRadioButton optionBButton = new JRadioButton("Opción B");
-	private JRadioButton optionCButton = new JRadioButton("Opción C");
-	private JRadioButton optionDButton = new JRadioButton("Opción D");
+	private JRadioButton optionAButton = new JRadioButton("Casa");
+	private JRadioButton optionBButton = new JRadioButton("Camión");
+	private JRadioButton optionCButton = new JRadioButton("Árbol");
+	private JRadioButton optionDButton = new JRadioButton("Eclipse");
 	private ButtonGroup group = new ButtonGroup();
 	private Button btnCambiar = new Button("Cambiar");
 	
@@ -36,7 +36,7 @@ public final class DibujoView extends JFrame {
 	 */
 	private DibujoView() {
 		
-		super.setTitle("Factory");
+		super.setTitle("Factory Method");
 		super.setSize(320, 480);
 		super.setDefaultCloseOperation(EXIT_ON_CLOSE);
 		super.setLocationRelativeTo(null);
