@@ -2,10 +2,10 @@
 
 En está pequeña aplicación se implementa:
 
-MVC
-Patrón de Diseño Singleton
-Patrón de Diseño Factory Method
-Graficos 2D de JAVA
+* MVC
+* Patrón de Diseño Singleton
+* Patrón de Diseño Factory Method
+* Graficos 2D de JAVA
 
 **Visit my website [Codizer](http://codizer.com/)**
 
